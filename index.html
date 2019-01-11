@@ -1,36 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-        <link rel="stylesheet" type="text/css" href="assets/main.css"/>
-    <title>
-        
-    </title>
-    <head>
-        
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Robert Heemann | Site</title>
 
-    <body>
-        <div is="nav">
-            <div class="nav-bar div-center">
-                <p>
-                    content
-                </p>
-            </div>
-        </div>
-        <div id="left">
-            <p>
-                helo world
-            </p>
-
-        </div>
-        <div id="right">
-            <p>
-                goodbye world
-            </p>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/Microchip-icon.png">
 
 
-        </div> 
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="javascript.js"></script>
+<!--<script src="scroll.js"></script>-->
 
 
+	<div id="slide">
+    	<img src="images/placeholder-profile-sq.jpg" alt="">
+    	<ul>
+        	<li class="list-title hide">Table of Contents</li>
             
-    </body>
+            <li><a href="#about" class="scroll-to" onclick="closeSideMenu()" >About</a></li>
+            <li><a href="#education" class="scroll-to" onclick="closeSideMenu()" >Education</a></li>
+            <li><a href="#resume" class="scroll-to" onclick="closeSideMenu()" >Resume</a></li>
+            <li><a href="#websites" class="scroll-to" onclick="closeSideMenu()" >Web Sites</a></li>
+            <li><a href="#process" class="scroll-to" onclick="closeSideMenu()" >Process</a></li>
+            <li><a href="#art" class="scroll-to" onclick="closeSideMenu()" >Art</a></li>
+        </ul>
+        <p>
+        	robert.heemann<br/>@utdallas.edu<br/>
+            (214) 289-9949<br/>
+            <a href="https://www.utdallas.edu/locator/ECSN_3.708">ECSN 3.708</a>
+        </p>
+    </div>
+
+	<div id="nav">
+    	<div id="nav-head">
+        	<a href="index.html"><img src="images/placeholder-profile-sq.jpg" alt=""></a>
+        	<p>
+            	<span class="menu">Robert Heemann</span><i class="fas fa-caret-down menu"></i>
+            </p>
+            
+            
+        </div>
+        
+        <p>
+        	robert.heemann<br/>@utdallas.edu<br/><br/>
+            (214) 289-9949<br/><br/>
+            <a href="https://www.utdallas.edu/locator/ECSN_3.708">ECSN 3.708</a>
+        </p>
+        
+        <ul>
+        	<li class="list-title hide">Table of Contents</li>
+            
+            <li><a href="#about" class="scroll-to">About</a></li>
+            <li><a href="#education" class="scroll-to">Education</a></li>
+            <li><a href="#resume" class="scroll-to">Resume</a></li>
+            <li><a href="#websites" class="scroll-to">Web Sites</a></li>
+            <li><a href="#process" class="scroll-to">Process</a></li>
+            <li><a href="#art" class="scroll-to">Art</a></li>
+        </ul>
+        
+    </div>
+	<!--End of Navigation Side Bar-->
+
+	<div id="content">
+    	
+        <article id="about" class="article-one">
+        	<h1>About</h1>
+			<!--<p>
+            	<span onclick="openSideMenu()">Open</span> <span onclick="closeSideMenu()">Close</span>
+            </p>-->
+			<p>
+            	Electrical Engineering student at the University of Texas at Dallas's Jonsson School of Engineering, with interests in circuits and computing systems. I am looking for a position where I put my creativity and problem solving abilities towards systems that will have a broad and positive impact on people's lives. 
+            </p>
+            <p>
+            	I am: creative, fast learner, problem-solver.
+            </p>
+            <p>
+            	I am open to working on websites as a freelance web designer. Please email me details on your project for more information. 
+            </p>
+        </article>
+        <hr/>
+        <article id="education">
+        	<h1>Education</h1>
+        	<p>
+            	UTD
+            </p>
+        </article>
+        <hr/>
+        <article id="resume">
+            <a href="Robert-Heemann-Resume.pdf" target="_blank">
+                <div class="site">
+                <h1>Resume</h1>
+                    <p>
+                        In attempt to keep the site clean and simple, you can click or tap on this box to view my resume. Feel free to view it and maybe even give it a download. 
+                    </p>
+                </div>	
+            </a>
+			
+            
+            
+        </article>
+        <hr/>
+        <article id="websites">
+        	<h1>Web Sites</h1>
+            <p>
+            	Here are some websites I've worked on or developed. Click on one of the boxes to view the site.
+            </p>
+            <div id="site-grid">
+            	<a href="#websites">
+                    <div class="site mine">
+                    <h1>Robert Heemann</h1>
+                        <p>
+                            A personal website I developed for myself. This site was done from scratch and had a completed responsive shell within 2 hours of beginning. It serves as a place people can view my resume and view some of the projects I've worked on. 
+                        </p>
+                    </div>	
+                </a>
+            	<a href="https://engineering.utdallas.edu/fearless2020/" target="_blank">
+                    <div class="site">
+                        <h1>Fearless 2020 Campaign</h1>
+                        <p>
+                            A fundrasing website I developed. This used a template from online the client had bought. I altered the template, entered content, and published the site for the client. This one had many iterations and is quite different from the original template. 
+                        </p>
+                    </div>
+                </a>
+            	<a href="http://lnladson.com/" target="_blank">
+                    <div class="site">
+                    <h1>L. Nicole Ladson</h1>
+                        <p>
+                            A personal website I developed. This used a template from online the client had bought. I altered the template, entered content, and published the site for the client. 
+                        </p>
+                    </div>	
+                </a>
+                
+                
+            </div><!--gird close-->
+            
+        </article>
+        <hr/>
+        <article id="process">
+        	<h1>Process</h1>
+            <p>
+            	An idea of my problem solving and creative processes. 
+                Show some skecthes, ideas, and other work that I have some iterations of.
+            </p>
+        </article>
+        <hr/>
+        <article id="art" class="article-last">
+        	<h1>Art</h1>
+            <p>
+            	Some Personal Artifact 
+            </p>
+        </article>
+    </div>
+</body>
 </html>
