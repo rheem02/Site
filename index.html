@@ -1,36 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-        <link rel="stylesheet" type="text/css" href="assets/main.css"/>
-    <title>
-        
-    </title>
-    <head>
-        
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Robert Heemann | Site</title>
 
-    <body>
-        <div is="nav">
-            <div class="nav-bar div-center">
-                <p>
-                    content
-                </p>
-            </div>
-        </div>
-        <div id="left">
-            <p>
-                helo world
-            </p>
-
-        </div>
-        <div id="right">
-            <p>
-                goodbye world
-            </p>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Cormorant+Garamond:100,200,300,400,500" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/Microchip-icon.png">
 
 
-        </div> 
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="textures-master/dist/textures.js"></script>
+<script src="javascript.js"></script>
+<!--<script src="scroll.js"></script>-->
 
 
+	<div id="slide">
+    	<img src="images/Robert-sq.jpg" alt="">
+    	<ul>
+        	<li class="list-title hide">Table of Contents</li>
             
-    </body>
+            <li><a href="#about" class="scroll-to" onclick="closeSideMenu()" style="color:#50b2b2;">About</a></li>
+            <li><a href="#education" class="scroll-to" onclick="closeSideMenu()" style="color:#e07a5f;">Education</a></li>
+			<li><a href="#exp" class="scroll-to" onclick="closeSideMenu()" style="color:#50b2b2;">Experience</a></li>
+            <li><a href="#resume" class="scroll-to" onclick="closeSideMenu()"  style="color:#53577c;">Resume</a></li>
+            <li><a href="#websites" class="scroll-to" onclick="closeSideMenu()" style="color:#5daa85;">Web Sites</a></li>
+            <!--<li><a href="#process" class="scroll-to" onclick="closeSideMenu()" style="color:#f2cc8f;">Process</a></li>
+            <li><a href="#art" class="scroll-to" onclick="closeSideMenu()" style="color:#50b2b2;">Art</a></li>-->
+        </ul>
+        <p>
+        	robert.heemann<br/>@utdallas.edu<br/>
+            (214) 289-9949<br/>
+            <a href="https://www.utdallas.edu/locator/ECSN_3.708" target="_blank">ECSN 3.708</a>
+        </p>
+    </div>
+
+	<div id="nav">
+    	<div id="nav-head">
+        	<a href="index.html"><img src="images/Robert-sq.jpg" alt=""></a>
+        	<p>
+            	<span class="menu">Robert Heemann</span><i class="fas fa-caret-down menu"></i>
+            </p>
+            
+            
+        </div>
+        
+        <p>
+        	robert.heemann<br/>@utdallas.edu<br/><br/>
+            (214) 289-9949<br/><br/>
+            <!--<a href="https://www.utdallas.edu/locator/ECSN_3.708">ECSN 3.708</a>-->
+            <a href="https://github.com/rheem02?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/robet-heemann-8763bb145/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </p>
+        
+        <ul id="tab-contents">
+        	<li class="list-title hide">Table of Contents</li>
+            
+            <li><a href="#about" class="scroll-to" style="color:#50b2b2;">About</a></li>
+            <li><a href="#education" class="scroll-to" style="color:#e07a5f;">Education</a></li>
+			<li><a href="#exp" class="scroll-to" style="color:#50b2b2;">Experience</a></li>
+            <li><a href="#resume" class="scroll-to" style="color:#53577c;">Resume</a></li>
+            <li><a href="#websites" class="scroll-to" style="color:#5daa85;">Web Sites</a></li>
+            <!--<li><a href="#process" class="scroll-to" onclick="closeSideMenu()" style="color:#f2cc8f;">Process</a></li>
+            <li><a href="#art" class="scroll-to" onclick="closeSideMenu()" style="color:#50b2b2;">Art</a></li>-->
+        </ul>
+        
+    </div>
+	<!--End of Navigation Side Bar-->
+
+	<div id="content">
+    	
+        <article id="about" class="article-one">
+        	<h1 style="color:#50b2b2;">About</h1>
+			<!--<p>
+            	<span onclick="openSideMenu()">Open</span> <span onclick="closeSideMenu()">Close</span>
+            </p>-->
+			<p>
+            	I am an Electrical Engineering Student at the University of Texas at Dallas with many interests. I'd like to specialize in circuit design or computing systems and I am looking for a position where I can put my creativity and problem solving towards products that have a broad and positive impact on people&apos;s lives.  
+            </p>
+            <p>
+            	I am creative and a fast learner who can work to solve problems until clients are satisfied. 
+            </p>
+            <p>
+            	I also work on websites in my free time and I am available to work on yours as a freelancer. You can review some of the sites I&apos;ve worked on below. Feel free to email me if you are interested.  
+            </p>
+        </article>
+        <hr style="color:#d4d4d4;">
+        <article id="education">
+        	<h1 style="color:#e07a5f;">Education</h1>
+        	<p>
+            	The University of Texas at Dallas is known for its research and engineering program. Founded with aid from Texas Instruments and joining the University of Texas School System in 1969, the university has its roots in entrepreneurial endeavors within Dallas. Despite its size, the University boasts a top ranking engineering program, and is one of the fastest growing. The university is located in the direct vicinity of several large engineering companies, which allows to professors and researchers to have immediate access and knowledge about real-world industry.
+            </p>
+        </article>
+        <hr style="color:#d4d4d4;">
+		<article id="exp">
+        	<h1 style="color:#50b2b2;">Experience</h1>
+            <p>
+            	My first job over the summer of 2017 was in a newly-opened restaurant working as a host. While not the most glamorous position, the job taught me valuable lessons in working within a team, how to work with customers, and honed several soft skills I use today. It was also a fascinating experience because the wait staff and management were fairly small, allowing me to learn about the inner workings from the top to the bottom. 
+			</p>
+			<p>
+				In the fall of 2018 I accepted a position as a &quot;Computer Assistant&quot; with the UTD Office of Information Technology. This job had me monitoring student computer labs and helping anyone affiliated with the university with any technical issues they might have. This job also taught me a lot and let me glimpse into the inner workings of managing something as large as a university&apos;s information technology systems. Troubleshooting and managing customer expectations were both skills I learned during this job. 
+			</p>
+			<p>	
+				Since the summer of 2018 I began working with the Erik Jonsson School of Engineering Communications Team updating various websites within the engineering.utdallas.edu domain. While I mostly updated existing webpages, I have gotten the opportunity to code some new websites and even gotten to do a lot of the heavy lifting for the new Mechanical Engineering website that is being developed. This position has allowed me to demonstrate and refine my soft skills in a much more professional office space. I have demonstrated that I can be trusted with a lot of responsibility and important projects during this job and I find that my experience here is unrivaled to many of the jobs held by my peers.  
+
+            </p>
+        </article>
+        <hr style="color:#d4d4d4;">
+        <article id="resume">
+            <a href="Robert-Heemann-Resume.pdf" target="_blank"><div class="site">
+                <h1 style="color:#53577c;font-family: 'Lato', sans-serif; margin-top:15px;">Resume</h1>
+                    <p>
+                        A link to my formal resume.<br/>Feel free to view and download it.
+                    </p>
+                </div></a>
+        </article>
+		<hr style="color:#d4d4d4;">
+        <article id="websites">
+        	<h1 style="color:#5daa85;">Web Sites</h1>
+            <p>
+            	Here are some websites I&apos;ve worked on or developed. Click on one of the boxes to view the site.
+            </p>
+            <div id="site-grid">
+            	<a href="#websites">
+                    <div class="site mine">
+                    <h1>Robert Heemann</h1>
+                        <p>
+                            The personal website I developed for myself. This site was done from scratch and had a completed responsive shell within 2 hours of beginning. It serves as a place people can view my resume and view some of the projects I&apos;ve worked on. 
+                        </p>
+                    </div>	
+                </a>
+            	<a href="https://engineering.utdallas.edu/fearless2020/" target="_blank">
+                    <div class="site">
+                        <h1>Fearless 2020 Campaign</h1>
+                        <p>
+                            A fundrasing website I developed. This used a template from online the client had bought. I altered the template, entered content, and published the site for the client. This one had many iterations and is quite different from the original template. 
+                        </p>
+                    </div>
+                </a>
+            	<a href="http://lnladson.com/" target="_blank">
+                    <div class="site">
+                    <h1>L. Nicole Ladson</h1>
+                        <p>
+                            A personal website I developed. This used a template from online the client had bought. I altered the template, entered content, and published the site for the client. 
+                        </p>
+                    </div>	
+                </a>
+                
+                
+            </div><!--gird close-->
+            
+        <!--</article>
+        <hr style="color:#d4d4d4;">
+        <article id="process">
+        	<h1 style="color:#f2cc8f;">Process</h1>
+            <p>
+            	An idea of my problem solving and creative processes. 
+                Show some skecthes, ideas, and other work that I have some iterations of.
+            </p>
+        </article>
+        <hr style="color:#d4d4d4;">
+        <article id="art" class="article-last">
+        	<h1 style="color:#50b2b2;">Art</h1>
+            <p>
+            	Some Personal Artifact 
+            </p>
+        </article>-->
+    </div>
+</body>
 </html>
